@@ -3,7 +3,7 @@ pipe_xyz:
   outputs:
     dev:
       type: duckdb
-      path: path: pipe_xyz.duckdb
+      path: pipe_xyz.duckdb
       extensions:
         - httpfs
         - parquet
