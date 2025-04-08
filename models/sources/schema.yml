@@ -1,0 +1,10 @@
+
+version: 2
+sources:
+    - name: Test
+      database: codestack-426823
+      schema: Test
+      tables:
+        - name: wolf
+        - name: cove
+        - name: subzero
