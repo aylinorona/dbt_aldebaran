@@ -39,6 +39,6 @@ models:
   pipe_xyz:
     # Applies to all files under models/example/
     marts:
-      +materialized: table
+      +materialized: 'table'
     staging:
-      +materialized: ephemeral
+      +materialized: 'ephemeral'

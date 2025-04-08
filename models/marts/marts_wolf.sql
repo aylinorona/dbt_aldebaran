@@ -1,1 +1,1 @@
-select * from {{ref('stg_renamecolumns_wolf')}}
+select * from {{ref('stg_erasecolumns_wolf')}}
