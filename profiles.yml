@@ -1,0 +1,14 @@
+pipe_xyz:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: pipe_xyz.duckdb
+      extensions:
+        - httpfs
+        - parquet
+        - aws
+      settings:
+        s3_region: us-east-1
+        s3_access_key_id: AWS_ACCESS_KEY_ID
+        s3_secret_access_key: AWS_SECRET_ACCESS_KEY
