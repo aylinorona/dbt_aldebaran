@@ -37,8 +37,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   pipe_xyz:
-    # Applies to all files under models/example/
     marts:
-      +materialized: 'table'
+      rollmaster_AR_CUST_PROPMGR:
+        +materialized: 'table'
+        
     staging:
       +materialized: 'ephemeral'
+
