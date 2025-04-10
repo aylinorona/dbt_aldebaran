@@ -5,6 +5,5 @@ sources:
       database: codestack-426823
       schema: Test
       tables:
-        - name: wolf
-        - name: cove
-        - name: subzero
+        - name: rollmaster_AR_CUST_PROPMGR
+  
